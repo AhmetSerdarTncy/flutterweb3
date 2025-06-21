@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'screens/home_screen.dart';
 import 'screens/wallet_screen.dart';
 import 'screens/profile_screen.dart';
+import 'screens/login_screen.dart';
 
 void main() {
   runApp(CryptoWalletApp());
@@ -16,7 +17,7 @@ class CryptoWalletApp extends StatelessWidget {
         primarySwatch: Colors.deepPurple,
         scaffoldBackgroundColor: Colors.grey[100],
       ),
-      home: MainNavigation(),
+      home: LoginScreen(),
       debugShowCheckedModeBanner: false,
     );
   }
